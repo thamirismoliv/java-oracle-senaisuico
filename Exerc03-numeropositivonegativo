@@ -1,16 +1,14 @@
-/* Crie um programa que troca o valor de duas variáveis a e b usando uma variável auxiliar.  */
 
 public class MyClass {
 public static void main(String args[]) {
 
-float a = 5;
-float b = 3;
-float troca = a;
-a = b;
-b = troca;
+float a = -8F;
 
-System.out.println(a);
-System.out.println(b);
-
+if (a <= 0){
+     System.out.println("Negativo");
 }
+ else {
+      System.out.println("Positivo");
+     }
+	}
 }
