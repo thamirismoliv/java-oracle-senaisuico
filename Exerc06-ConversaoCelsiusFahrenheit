@@ -1,0 +1,15 @@
+/* Crie uma variável para temperatura em Celsius e mostre a conversão para Fahrenheit:
+Fórmula: F = (C * 9/5) + 32 */
+
+public class MyClass {
+public static void main(String args[]) {
+
+float celsius = 20;
+System.out.println("Celsius: " + celsius);
+
+float f = (celsius * 9/5) + 32;
+
+System.out.println("Fahrenheit: " + f);
+
+}
+}
