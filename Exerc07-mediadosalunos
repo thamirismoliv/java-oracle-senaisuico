@@ -1,0 +1,25 @@
+package aula03_if_02;
+
+/* Faça um programa que calcule a média */
+import java.util.Scanner;
+	public class MyClass {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+				
+		System.out.println("Digite a nota da prova de matemática");
+		float nota1 = scanner.nextFloat();
+		
+		System.out.println("Digite a nota da prova de portugues");
+		float nota2 = scanner.nextFloat(); 
+		
+		System.out.println("Digite a nota da prova de inglês");
+		float nota3 = scanner.nextFloat();
+		
+		float resultado = (nota1 + nota2 + nota3) /3;
+		
+		System.out.println("A média é:" + resultado);
+	}
+
+}
