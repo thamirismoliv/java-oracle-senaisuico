@@ -1,0 +1,36 @@
+package aula05_switch;
+
+import java.util.Scanner;
+
+public class Teste {
+	
+	public static void main(String[] args) {
+		Scanner teclado =new Scanner(System.in);
+		System.out.println("Qual o lanche que"
+				+ " voce quer?");
+		System.out.println("1 - Big Mac");
+		System.out.println("2 - MacFish");
+		System.out.println("3 - MacChichen");
+		System.out.println("4 - Quarteirão");
+		int opcao =teclado.nextInt();
+		
+		switch (opcao) {
+		case 1:
+			System.out.println("Big Mac");
+			break;
+		case 2:
+			System.out.println("MacFish");
+			break;
+		case 3:
+			System.out.println("MacChichen");
+			break;
+		case 4:
+			System.out.println("Quarteirão");
+			break;
+		default:
+			System.out.println("Inválido");
+		}
+		
+	}
+
+}
